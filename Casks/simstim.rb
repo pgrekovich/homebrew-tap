@@ -15,7 +15,7 @@ cask "simstim" do
   # Signed with a Developer ID and notarized; Core Audio process taps need
   # macOS 14.2, which the app checks itself at launch.
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   # The app updates itself from GitHub Releases; brew upgrade is still fine.
   auto_updates true
