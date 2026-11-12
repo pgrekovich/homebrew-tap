@@ -1,6 +1,6 @@
 cask "simstim" do
-  version "0.16.0"
-  sha256 "8bd56a44734fc33e743fb2fa21ec7ab08babaa78b6f5e3114e726b16f9ae08b7"
+  version "0.16.1"
+  sha256 "beae240dfab9994dc35024a949294056cf07d336dbec7b1453fc8010e14b6b74"
 
   url "https://github.com/pgrekovich/simstim/releases/download/v#{version}/Simstim_#{version}_aarch64.dmg"
   name "Simstim"
